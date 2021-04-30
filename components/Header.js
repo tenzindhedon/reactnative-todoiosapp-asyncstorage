@@ -9,7 +9,6 @@ const Header = ({title}) => {
   );
 }
 
-
 const styles = StyleSheet.create({
     header:{
         height:60,

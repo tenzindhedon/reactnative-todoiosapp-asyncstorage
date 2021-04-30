@@ -36,7 +36,6 @@ const Modify = ({btnState, addNewList, handleDelete, handleMoveUp, handleMoveDow
   );
 }
 
-
 const styles = StyleSheet.create({
     btnPanel:{
         padding:15,

@@ -14,7 +14,6 @@ const ListItem = ({item, handleClick}) => {
 }
 
 const styles = StyleSheet.create({
-    
   listItemView: {
         padding:15,
         flexDirection:'row',
