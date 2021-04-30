@@ -51,7 +51,6 @@ const App = () => {
     }
   }
  
-  // 
   useEffect(() => {
     loadStoredData();
   }, []);
@@ -167,6 +166,7 @@ const App = () => {
   resetStorage = async() => {
     try {
       await AsyncStorage.clear();
+      // alternate method
       // list.map((item) => AsyncStorage.setItem('@key' + item.id, JSON,stringify(item)));
       for (let i=0;i<list.length;i++) {
         await AsyncStorage.setItem('@key' + list[i].id, JSON.stringify(list[i]));
